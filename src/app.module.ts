@@ -1,6 +1,8 @@
 import { Module } from '@nestjs/common';
 import { McpModule, McpTransportType } from '@rekog/mcp-nest';
 import { ObsidianModule } from './obsidian/obsidian.module';
+import { ObsidianCLITool } from './obsidian/obsidian.tool';
+import { ObsidianResource } from './obsidian/obsidian.resource';
 
 @Module({
   imports: [
@@ -11,5 +13,6 @@ import { ObsidianModule } from './obsidian/obsidian.module';
     }),
     ObsidianModule,
   ],
+  providers: [ObsidianCLITool, ObsidianResource],
 })
 export class AppModule {}
