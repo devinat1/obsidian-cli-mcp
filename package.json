@@ -1,6 +1,6 @@
 {
   "name": "obsidian-cli-mcp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "author": "",
   "private": false,
@@ -55,17 +55,23 @@
     "typescript-eslint": "^8.20.0"
   },
   "jest": {
-      "moduleFileExtensions": ["js", "json", "ts"],
-      "rootDir": "src",
-      "testRegex": ".*\\.spec\\.ts$",
-      "transform": {
-        "^.+\\.(t|j)s$": "ts-jest"
-      },
-      "collectCoverageFrom": ["**/*.(t|j)s"],
-      "coverageDirectory": "../coverage",
-      "testEnvironment": "node",
-      "moduleNameMapper": {
-        "^src/(.*)$": "<rootDir>/$1"
-      }
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "src",
+    "testRegex": ".*\\.spec\\.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "collectCoverageFrom": [
+      "**/*.(t|j)s"
+    ],
+    "coverageDirectory": "../coverage",
+    "testEnvironment": "node",
+    "moduleNameMapper": {
+      "^src/(.*)$": "<rootDir>/$1"
+    }
   }
 }
