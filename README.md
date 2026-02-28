@@ -1,6 +1,6 @@
 # Obsidian CLI MCP Server
 
-A [Model Context Protocol](https://modelcontextprotocol.io) server that wraps the [Obsidian CLI](https://github.com/Obsidian-TTRPG-Community/obsidian-cli), allowing AI assistants like Claude to execute Obsidian CLI commands.
+A [Model Context Protocol](https://modelcontextprotocol.io) server that wraps the [Obsidian CLI](https://help.obsidian.md/cli), allowing AI assistants like Claude to execute Obsidian CLI commands.
 
 ## Prerequisites
 
