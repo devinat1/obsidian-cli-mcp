@@ -5,6 +5,12 @@
   "author": "",
   "private": false,
   "license": "MIT",
+  "bin": {
+    "obsidian-cli-mcp": "dist/main.js"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
